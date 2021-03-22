@@ -1,0 +1,8 @@
+commands/CommandDiscord.class
+commands/CommandTwitter.class
+commands/CommandForums.class
+commands/CommandTeamSpeak.class
+commands/CommandStore.class
+developer/fireroz/linkit/LinkIt.class
+events/SocialsJoin.class
+commands/CommandInstagram.class

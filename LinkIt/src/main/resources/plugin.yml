@@ -1,0 +1,64 @@
+name: LinkIt
+version: ${project.version}
+main: developer.fireroz.linkit.LinkIt
+api-version: 1.16
+prefix: LinkIt
+authors: [ FireRoz ]
+description: Link it to your players
+
+commands:
+  discord:
+    description: Discord
+  forums:
+    description: Forums
+  instagram:
+    description: Instagram
+    aliases: insta
+  twitter:
+    description: Twitter
+  store:
+    description: Store
+  teamspeak:
+    description: Teamspeak
+    aliases: ts
+
+
+permissions:
+  linkit.forums:
+    description: Forums
+    default: op
+  linkit.discord:
+    description: Discord
+    default: op
+  linkit.instagram:
+    description: Instagram
+    default: op
+  linkit.twitter:
+    description: Twitter
+    default: op
+  linkit.store:
+    description: Store
+    default: op
+  linkit.teamspeak:
+    description: TeamSpeak
+    default: op
+  linkit.*:
+    description: All perms for link it
+    default: op
+    children:
+      linkit.discord: true
+      linkit.forums: true
+      linkit.instagram: true
+      linkit.twitter: true
+      linkit.store: true
+      linkit.teamspeak: true
+  linkit.player:
+    description: All perms a player needs for link it
+    default: op
+    children:
+      linkit.discord: true
+      linkit.forums: true
+      linkit.instagram: true
+      linkit.twitter: true
+      linkit.store: true
+      linkit.teamspeak: true

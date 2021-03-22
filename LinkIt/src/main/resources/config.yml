@@ -1,0 +1,79 @@
+# -----------------------------------
+# Start of configuration
+# LinkIt made with <3 by FireRoz
+# -----------------------------------
+
+
+# -----------------------------------
+# General
+# -----------------------------------
+
+# The message that appears when a player doesn't have permission to something
+noperm: "&cI'm sorry, but you do not have permission to perform this command."
+
+# The message that appears when a social media / link is disabled in the config
+notenabled: "This feature isn't enabled on the configuration."
+
+# The message that sends to a player when the player joins. (You can use %discord%, %forums%, %store%, %instagram%, %twitter%, %teamspeak%) Use \n for a new line
+joinmessage: "&e-------------\n&fWelcome to my server!\n%discord%\n%forums%\n%store%\n&e-------------"
+
+# -----------------------------------
+# Discord
+# -----------------------------------
+
+# Whether /discord is enabled or not
+discord-enabled: true
+
+# The message that appears on /discord
+discord-link: "&1&lDISCORD &7- &9https://discord.gg/server"
+
+# -----------------------------------
+# Forums
+# -----------------------------------
+
+# Whether /forums is enabled or not
+forums-enabled: true
+
+# The message that appears on /forums
+forums-link: "&4&lFORUMS &7- &chttps://yourwebsite.net/forums"
+
+# -----------------------------------
+# Instagram
+# -----------------------------------
+
+# Whether /instagram (/insta) is enabled or not
+instagram-enabled: true
+
+# The message that appears on /instagram (/insta)
+instagram-link: "&d&lINSTAGRAM &7- &e@YourServer"
+
+# -----------------------------------
+# Twitter
+# -----------------------------------
+
+# Whether /twitter is enabled or not
+twitter-enabled: true
+
+# The message that appears on /twitter
+twitter-link: "&b&lTWITTER &7- &f@YourServer"
+
+# -----------------------------------
+# Store
+# -----------------------------------
+
+# Whether /store is enabled or not
+store-enabled: true
+
+# The message that appears on /store
+store-link: "&6&lSTORE &7- &ehttps://store.yourserver.net"
+
+# -----------------------------------
+# TeamSpeak
+# -----------------------------------
+
+# Whether /teamspeak (/ts) is enabled or not
+teamspeak-enabled: true
+
+# The message that appears on /teamspeak (/ts)
+teamspeak-link: "&8&lTEAMSPEAK &7- &7https://ts.yourserver.net"
+
