@@ -29,6 +29,7 @@ public final class LinkIt extends JavaPlugin {
         getCommand("twitter").setExecutor(new CommandTwitter(this));
         getCommand("store").setExecutor(new CommandStore(this));
         getCommand("teamspeak").setExecutor(new CommandTeamSpeak(this));
+        getCommand("linkreload").setExecutor(new CommandLinkReload(this));
 
 
 

@@ -2,6 +2,8 @@
 /home/taya/IdeaProjects/LinkIt/src/main/java/commands/CommandForums.java
 /home/taya/IdeaProjects/LinkIt/src/main/java/commands/CommandInstagram.java
 /home/taya/IdeaProjects/LinkIt/src/main/java/commands/CommandTwitter.java
+/home/taya/IdeaProjects/LinkIt/src/main/java/events/SocialsJoin.java
+/home/taya/IdeaProjects/LinkIt/src/main/java/commands/CommandLinkReload.java
 /home/taya/IdeaProjects/LinkIt/src/main/java/commands/CommandDiscord.java
 /home/taya/IdeaProjects/LinkIt/src/main/java/developer/fireroz/linkit/LinkIt.java
 /home/taya/IdeaProjects/LinkIt/src/main/java/commands/CommandStore.java

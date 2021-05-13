@@ -1,5 +1,5 @@
 name: LinkIt
-version: ${project.version}
+version: 2.0
 main: developer.fireroz.linkit.LinkIt
 api-version: 1.16
 prefix: LinkIt
@@ -21,6 +21,8 @@ commands:
   teamspeak:
     description: Teamspeak
     aliases: ts
+  linkitreload:
+
 
 
 permissions:
@@ -42,6 +44,8 @@ permissions:
   linkit.teamspeak:
     description: TeamSpeak
     default: op
+  linkit.reload:
+    default: op
   linkit.*:
     description: All perms for link it
     default: op
@@ -52,6 +56,7 @@ permissions:
       linkit.twitter: true
       linkit.store: true
       linkit.teamspeak: true
+      linkit.reload: true
   linkit.player:
     description: All perms a player needs for link it
     default: op

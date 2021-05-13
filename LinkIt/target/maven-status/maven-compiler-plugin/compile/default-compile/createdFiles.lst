@@ -6,3 +6,4 @@ commands/CommandStore.class
 developer/fireroz/linkit/LinkIt.class
 events/SocialsJoin.class
 commands/CommandInstagram.class
+commands/CommandLinkReload.class
